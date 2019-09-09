@@ -1,0 +1,25 @@
+PODS:
+  - Crashlytics (3.13.4):
+    - Fabric (~> 1.10.2)
+  - Fabric (1.10.2)
+  - SwiftLint (0.34.0)
+
+DEPENDENCIES:
+  - Crashlytics
+  - Fabric
+  - SwiftLint
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Crashlytics
+    - Fabric
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Crashlytics: 2dfd686bcb918dc10ee0e76f7f853fe42c7bd552
+  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
+  SwiftLint: 79d48a17c6565dc286c37efb8322c7b450f95c67
+
+PODFILE CHECKSUM: 055ff3a113abf79c31af1f121f9f9d21415ba9be
+
+COCOAPODS: 1.5.3
