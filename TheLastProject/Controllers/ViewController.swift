@@ -20,10 +20,6 @@ class ViewController: UIViewController {
         endpointLabel.text = temp
         consumerKeyLabel.text = infoForKey("Consumer Key")
         consumerSecretLabel.text = infoForKey("Consumer Secret")
-        
-        // test swiftlint
-        
-        
     }
 
     // MARK: Get value from Infor
