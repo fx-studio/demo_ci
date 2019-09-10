@@ -14,6 +14,24 @@ analyzer_rules: # Rules run by `swiftlint analyze` (experimental)
   - explicit_self
 
 # configurable rules can be customized from this configuration file
+custom_rules:
+
+  id_suffix_naming:
+    name: "Wrong name"
+    regex: "(ID)"
+    match_kinds:
+      - comment
+      - identifier
+    message: "Use 'Id' instead 'ID'"
+    severity: error
+
+  uiwebview_disabled:
+    included: ".*.swift"
+    name: "UIWebView Usage Disabled"
+    regex: 'UIWebView'
+    message: "Do not use UIWebView. Use WKWebView Instead. https://developer.apple.com/reference/uikit/uiwebview"
+    severity: error
+    
 # binary rules can set their severity level
 force_cast: warning # implicitly
 force_try:
