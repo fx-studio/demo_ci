@@ -15,4 +15,4 @@ install:
   - sudo systemsetup -settimezone Asia/Ho_Chi_Minh
   - bundle install --path=vendor/bundle --jobs 4 --retry 3
 script:
-  - ./bin/linter
+  - linter
