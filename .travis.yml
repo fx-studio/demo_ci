@@ -7,7 +7,7 @@ xcode_workspace: TheLastProject.xcworkspace
 xcode_scheme: TheLastProject_Development
 xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone X
 before_install:
-  - bundle install --clean
+  - bundle install
   - gem install linterbot
   - bundle exec pod install --repo-update
 install:
