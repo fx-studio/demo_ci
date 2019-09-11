@@ -615,7 +615,7 @@
 			baseConfigurationReference = 000CC0E2544EC4B880B60402 /* Pods-TheLastProject.staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(FX_APP_ICON)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = QG598U658S;
 				INFOPLIST_FILE = TheLastProject/Info.plist;
@@ -625,7 +625,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fx.thelastproject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = TheLastProject_AdHoc;
+				PROVISIONING_PROFILE_SPECIFIER = TheLastProject_Dev;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -757,7 +757,8 @@
 			baseConfigurationReference = BF607AB6DAD3AA687804EDB4 /* Pods-TheLastProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(FX_APP_ICON)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = QG598U658S;
 				INFOPLIST_FILE = TheLastProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -766,6 +767,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fx.thelastproject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = TheLastProject_Dev;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
