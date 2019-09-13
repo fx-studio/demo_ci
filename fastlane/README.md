@@ -31,6 +31,11 @@ Try to test app
 fastlane ios build_local
 ```
 Build App in local
+### ios build
+```
+fastlane ios build
+```
+Build App
 
 ----
 
