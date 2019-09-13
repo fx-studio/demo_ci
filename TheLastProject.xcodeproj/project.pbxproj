@@ -244,7 +244,7 @@
 				2AFB2F8A223F517000F3EC5A /* Sources */,
 				2AFB2F8B223F517000F3EC5A /* Frameworks */,
 				2AFB2F8C223F517000F3EC5A /* Resources */,
-				2A1A527123274FCD00AAB9C6 /* SwiftLint */,
+				2A0839EC224095E6003744C5 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -267,17 +267,14 @@
 				TargetAttributes = {
 					2A0839D122407FDE003744C5 = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1020;
 						TestTargetID = 2AFB2F8D223F517000F3EC5A;
 					};
 					2A0839E022407FF6003744C5 = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1020;
 						TestTargetID = 2AFB2F8D223F517000F3EC5A;
 					};
 					2AFB2F8D223F517000F3EC5A = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -329,7 +326,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2A1A527123274FCD00AAB9C6 /* SwiftLint */ = {
+		2A0839EC224095E6003744C5 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -446,7 +443,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fx.TheLastProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheLastProject.app/TheLastProject";
 			};
@@ -466,7 +463,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fx.TheLastProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheLastProject.app/TheLastProject";
 			};
@@ -486,7 +483,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fx.TheLastProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheLastProject.app/TheLastProject";
 			};
@@ -505,7 +502,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fx.TheLastProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = TheLastProject;
 			};
@@ -524,7 +521,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fx.TheLastProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = TheLastProject;
 			};
@@ -543,7 +540,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fx.TheLastProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = TheLastProject;
 			};
@@ -629,7 +626,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fx.thelastproject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = TheLastProject_AdHoc;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Staging;
@@ -760,7 +757,6 @@
 			baseConfigurationReference = BF607AB6DAD3AA687804EDB4 /* Pods-TheLastProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(FX_APP_ICON)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QG598U658S;
 				INFOPLIST_FILE = TheLastProject/Info.plist;
@@ -770,8 +766,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fx.thelastproject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -781,7 +776,7 @@
 			baseConfigurationReference = 5D50DD4EF8046C5CD68FE8C4 /* Pods-TheLastProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(FX_APP_ICON)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = QG598U658S;
 				INFOPLIST_FILE = TheLastProject/Info.plist;
@@ -792,7 +787,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fx.thelastproject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = TheLastProject_AdHoc;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
