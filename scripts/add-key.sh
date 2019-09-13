@@ -15,6 +15,7 @@ security set-keychain-settings -t 3600 -u $KEY_CHAIN
 
 security import ./scripts/certs/dis.p12 -k $KEY_CHAIN -P 12345678  -T /usr/bin/codesign
 security import ./scripts/certs/dev.p12 -k $KEY_CHAIN -P 12345678  -T /usr/bin/codesign
+security import ./scripts/certs/dev2.p12 -k $KEY_CHAIN -P 12345678  -T /usr/bin/codesign
 
 security set-key-partition-list -S apple-tool:,apple: -s -k travis ~/Library/Keychains/ios-build.keychain
 
