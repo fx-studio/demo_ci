@@ -55,7 +55,7 @@ platform :ios do
     import_certificate(
       keychain_name: "ios-build.keychain",
       keychain_password: "travis",
-      certificate_path: "./scripts/certs/dev.p12",
+      certificate_path: "./scripts/certs/dev2.p12",
       certificate_password: "12345678"
     )
     update_project_provisioning(
