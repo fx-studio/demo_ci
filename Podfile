@@ -6,8 +6,9 @@ target 'TheLastProject' do
   use_frameworks!
 
   # Pods for TheLastProject
-  pod 'SwiftLint'
-  pod 'Fabric'
-  pod 'Crashlytics'
+  pod 'SwiftLint', '~> 0.27'
+  pod 'Fabric', '~> 1.10.2'
+  pod 'Crashlytics', '~> 3.14.0'
+  pod 'Firebase/Analytics'
 
 end
