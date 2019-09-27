@@ -10,7 +10,6 @@
 		180887ACB5DAF2C1E19181D5 /* Pods_TheLastProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1B1255C353FA9AE746C808 /* Pods_TheLastProject.framework */; };
 		2A0839D522407FDE003744C5 /* TheLastProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0839D422407FDE003744C5 /* TheLastProjectTests.swift */; };
 		2A0839E422407FF6003744C5 /* TheLastProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0839E322407FF6003744C5 /* TheLastProjectUITests.swift */; };
-		2A5991C7232F310100BC15AE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A5991C6232F310100BC15AE /* GoogleService-Info.plist */; };
 		2AFB2F92223F517000F3EC5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFB2F91223F517000F3EC5A /* AppDelegate.swift */; };
 		2AFB2F94223F517000F3EC5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFB2F93223F517000F3EC5A /* ViewController.swift */; };
 		2AFB2F97223F517000F3EC5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AFB2F95223F517000F3EC5A /* Main.storyboard */; };
@@ -47,7 +46,6 @@
 		2A254D30223F782100675331 /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
 		2A254D31223F787600675331 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		2A254D32223F788800675331 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		2A5991C6232F310100BC15AE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2AFB2F8E223F517000F3EC5A /* TheLastProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheLastProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AFB2F91223F517000F3EC5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AFB2F93223F517000F3EC5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -177,7 +175,6 @@
 				2A254D37223F78C200675331 /* Resources */,
 				2A254D33223F788E00675331 /* Configs */,
 				2AFB2F9D223F517000F3EC5A /* Info.plist */,
-				2A5991C6232F310100BC15AE /* GoogleService-Info.plist */,
 			);
 			path = TheLastProject;
 			sourceTree = "<group>";
@@ -247,9 +244,7 @@
 				2AFB2F8A223F517000F3EC5A /* Sources */,
 				2AFB2F8B223F517000F3EC5A /* Frameworks */,
 				2AFB2F8C223F517000F3EC5A /* Resources */,
-				2A1A527123274FCD00AAB9C6 /* SwiftLint */,
-				C40315D14ABD99C9FF190005 /* [CP] Embed Pods Frameworks */,
-				2A5991C8232F39A600BC15AE /* Crashlytics */,
+				2A0839EC224095E6003744C5 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -272,17 +267,14 @@
 				TargetAttributes = {
 					2A0839D122407FDE003744C5 = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1020;
 						TestTargetID = 2AFB2F8D223F517000F3EC5A;
 					};
 					2A0839E022407FF6003744C5 = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1020;
 						TestTargetID = 2AFB2F8D223F517000F3EC5A;
 					};
 					2AFB2F8D223F517000F3EC5A = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -326,7 +318,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AFB2F9C223F517000F3EC5A /* LaunchScreen.storyboard in Resources */,
-				2A5991C7232F310100BC15AE /* GoogleService-Info.plist in Resources */,
 				2AFB2F99223F517000F3EC5A /* Assets.xcassets in Resources */,
 				2AFB2F97223F517000F3EC5A /* Main.storyboard in Resources */,
 			);
@@ -335,7 +326,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2A1A527123274FCD00AAB9C6 /* SwiftLint */ = {
+		2A0839EC224095E6003744C5 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -351,26 +342,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"swiftlint\"\n";
-		};
-		2A5991C8232F39A600BC15AE /* Crashlytics */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
-			);
-			name = Crashlytics;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/Fabric/run\"\n";
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
 		2D8874B7F84BDE753320F6C6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -392,30 +364,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C40315D14ABD99C9FF190005 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TheLastProject/Pods-TheLastProject-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheLastProject/Pods-TheLastProject-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -495,7 +443,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fx.TheLastProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheLastProject.app/TheLastProject";
 			};
@@ -515,7 +463,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fx.TheLastProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheLastProject.app/TheLastProject";
 			};
@@ -535,7 +483,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fx.TheLastProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheLastProject.app/TheLastProject";
 			};
@@ -554,7 +502,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fx.TheLastProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = TheLastProject;
 			};
@@ -573,7 +521,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fx.TheLastProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = TheLastProject;
 			};
@@ -592,7 +540,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fx.TheLastProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = TheLastProject;
 			};
@@ -667,8 +615,8 @@
 			baseConfigurationReference = 000CC0E2544EC4B880B60402 /* Pods-TheLastProject.staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(FX_APP_ICON)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = QG598U658S;
 				INFOPLIST_FILE = TheLastProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -677,7 +625,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fx.thelastproject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = TheLastProject_AdHoc;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -809,7 +757,6 @@
 			baseConfigurationReference = BF607AB6DAD3AA687804EDB4 /* Pods-TheLastProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(FX_APP_ICON)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QG598U658S;
 				INFOPLIST_FILE = TheLastProject/Info.plist;
@@ -819,7 +766,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fx.thelastproject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -830,8 +776,8 @@
 			baseConfigurationReference = 5D50DD4EF8046C5CD68FE8C4 /* Pods-TheLastProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(FX_APP_ICON)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = QG598U658S;
 				INFOPLIST_FILE = TheLastProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -840,7 +786,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fx.thelastproject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = TheLastProject_AdHoc;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
