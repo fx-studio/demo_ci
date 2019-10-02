@@ -106,6 +106,7 @@ GEM
       xcodeproj (>= 1.8.1, < 2.0.0)
       xcpretty (~> 0.3.0)
       xcpretty-travis-formatter (>= 0.0.3)
+    fastlane-plugin-firebase_app_distribution (0.1.2)
     fourflusher (2.0.1)
     fuzzy_match (2.0.4)
     gh_inspector (1.1.3)
@@ -217,7 +218,8 @@ PLATFORMS
 DEPENDENCIES
   cocoapods (= 1.5.3)
   fastlane (= 2.131.0)
+  fastlane-plugin-firebase_app_distribution
   linterbot (= 0.2.7)
 
 BUNDLED WITH
-   1.16.4
+   1.17.3

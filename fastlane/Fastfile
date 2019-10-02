@@ -39,6 +39,13 @@ platform :ios do
       silent: true,
       clean: true
     )
+
+    firebase_app_distribution(
+              app: "1:295014545853:ios:4899404039c42318213ad4",
+              groups: "fxstudio_test",
+              release_notes: "The last project - Devlopment - Verion 0.2.0.",
+	      firebase_cli_path: "/usr/local/bin/firebase"
+    )
   end
 
   desc "Make build Folder"
@@ -76,6 +83,12 @@ platform :ios do
       export_options: {
         provisioningProfiles: { "com.fx.thelastproject": "TheLastProject_Dev" }
       }
+    )
+    firebase_app_distribution(
+              app: "1:295014545853:ios:4899404039c42318213ad4",
+              groups: "fxstudio_test",
+              release_notes: "The last project - Devlopment & TravisCI - Verion 0.3.0.",
+	      firebase_cli_path: "/usr/local/bin/firebase"
     )
     enable_automatic_code_signing(
       path: "TheLastProject.xcodeproj"
