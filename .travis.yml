@@ -21,5 +21,4 @@ before_script:
   - sh ./scripts/add-key.sh
 script:
   - ./scripts/linter
-  - firebase login --token "$FIREBASE_TOKEN" -y
   - bundle exec fastlane build
