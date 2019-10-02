@@ -5,22 +5,27 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.012133">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.001021">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: Switch to ios make_build_folder lane" time="0.001404">
+      <testcase classname="fastlane.lanes" name="1: Switch to ios make_build_folder lane" time="0.00102">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: mkdir -p ./build" time="0.00509">
+      <testcase classname="fastlane.lanes" name="2: mkdir -p ./build" time="0.003751">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: build_ios_app" time="89.088691">
+      <testcase classname="fastlane.lanes" name="3: build_ios_app" time="79.665184">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: firebase_app_distribution" time="25.003176">
         
       </testcase>
     

@@ -10,7 +10,7 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 
 FX_APP_NAME = Project (dev)
-FX_APP_VERSION = 0.1.2
+FX_APP_VERSION = 0.3.1
 FX_APP_BUNDLE_ID = com.fx.thelastproject
 FX_APP_ICON = AppIconDebug
 
